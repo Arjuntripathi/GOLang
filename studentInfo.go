@@ -104,7 +104,7 @@ func getAStudent(c *gin.Context) {
 //function to update particular student info by giving there id
 //using a command on terminal
 /*
-	url http://localhost:3010/Student/14 \
+	curl http://localhost:3010/Student/14 \
 		--include \
 		--header "Content-Type: application/json" \
 		--request "PUT" \
@@ -112,7 +112,7 @@ func getAStudent(c *gin.Context) {
 
 	____________EXAMPLE___________
 
-	url http://localhost:3010/Student/14 \
+	curl http://localhost:3010/Student/14 \
 		--include \
 		--header "Content-Type: application/json" \
 		--request "PUT" \
