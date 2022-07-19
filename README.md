@@ -166,6 +166,11 @@ func DeleteAStudent(c *gin.Context){
 	c.IndentedJSON(http.StatusNotFound, gin.H{"mesage": "Student are not avilable"})
 	
 }
+
+//A function Which is created to delete a particular index and return new array
+func RemoveIndex(tempStudents []Student, index int) []Student{
+	return append(tempStudents[:index], tempStudents[index+1:]...)
+}
 </pre>
 
 </ul>
