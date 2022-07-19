@@ -172,6 +172,15 @@ func DeleteAStudent(c *gin.Context){
 
 <h4>Step 4:</h4>
 <ul>
+Run your Program go on terminal and type
+	<pre>
+	$ go run main.go studentinfo.go
+	</pre>
+	and then open another terminal on your pc and run as <b>step 5</b>
+</ul>
+
+<h4>Step 5:</h4>
+<ul>
 <b>how to run on terminal</b>
 <br>
 install <pre>curl</pre> to run it, then on terminal<br>
