@@ -3,7 +3,7 @@ package main
 //inport for use router
 import (
 	"github.com/gin-gonic/gin"
-	"GO/StudentInfo"
+	"GOLang/StudentInfo"
 	)
 
 
