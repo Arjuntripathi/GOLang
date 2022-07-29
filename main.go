@@ -18,5 +18,5 @@ func main() {
 	router.PUT("/Student/:id", StudentInfo.UpdateAStudent)
 	router.DELETE("/Student/:id", StudentInfo.DeleteAStudent)
 
-	router.Run("localhost:3010")
+	router.Run("localhost:8080")
 }
