@@ -1,14 +1,12 @@
-# syntax=docker/dockerfile:1
-
 FROM golang:latest
 
-WORKDIR /app
+WORKDIR /GOLang
+COPY . .
 
-RUN git clone https://github.com/Arjuntripathi/GOLang
 
-RUN cd /GOLang && go build
+RUN go build .
+
 
 EXPOSE 8080
 
-CMD ['./GOLang']
-
+CMD [ "./GOLang" ]
