@@ -8,6 +8,7 @@ import (
 )
 
 //main function which perform every action
+//this for rest api
 
 func main() {
 	router := gin.Default()
